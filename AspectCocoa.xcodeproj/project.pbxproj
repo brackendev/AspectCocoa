@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		F16D9D43087F1658003D2D89 /* ACAdviceList.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D0F087F1658003D2D89 /* ACAdviceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D44087F1658003D2D89 /* ACAdviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D10087F1658003D2D89 /* ACAdviceList.m */; };
+		F16D9D45087F1658003D2D89 /* ACAdviceLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D11087F1658003D2D89 /* ACAdviceLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D46087F1658003D2D89 /* ACAdviceLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D12087F1658003D2D89 /* ACAdviceLookup.m */; };
+		F16D9D47087F1658003D2D89 /* ACAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D13087F1658003D2D89 /* ACAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D48087F1658003D2D89 /* ACAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D14087F1658003D2D89 /* ACAspect.m */; };
+		F16D9D49087F1658003D2D89 /* ACAspectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D15087F1658003D2D89 /* ACAspectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D4A087F1658003D2D89 /* ACAspectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D16087F1658003D2D89 /* ACAspectManager.m */; };
+		F16D9D4B087F1658003D2D89 /* ACBOOLLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D17087F1658003D2D89 /* ACBOOLLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D4C087F1658003D2D89 /* ACBOOLLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D18087F1658003D2D89 /* ACBOOLLookup.m */; };
+		F16D9D4D087F1658003D2D89 /* ACClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D19087F1658003D2D89 /* ACClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D4E087F1658003D2D89 /* ACClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D1A087F1658003D2D89 /* ACClass.m */; };
+		F16D9D4F087F1658003D2D89 /* ACClassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D1B087F1658003D2D89 /* ACClassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D50087F1658003D2D89 /* ACClassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D1C087F1658003D2D89 /* ACClassFilter.m */; };
+		F16D9D51087F1658003D2D89 /* ACClassScope.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D1D087F1658003D2D89 /* ACClassScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D52087F1658003D2D89 /* ACClassScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D1E087F1658003D2D89 /* ACClassScope.m */; };
+		F16D9D53087F1658003D2D89 /* ACCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D1F087F1658003D2D89 /* ACCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D54087F1658003D2D89 /* ACCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D20087F1658003D2D89 /* ACCodeGenerator.m */; };
+		F16D9D55087F1658003D2D89 /* ACForwardingWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D21087F1658003D2D89 /* ACForwardingWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D56087F1658003D2D89 /* ACForwardingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D22087F1658003D2D89 /* ACForwardingWrapper.m */; };
+		F16D9D57087F1658003D2D89 /* ACGeneratedCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D23087F1658003D2D89 /* ACGeneratedCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D58087F1658003D2D89 /* ACGeneratedCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D24087F1658003D2D89 /* ACGeneratedCode.m */; };
+		F16D9D59087F1658003D2D89 /* ACIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D25087F1658003D2D89 /* ACIMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D5A087F1658003D2D89 /* ACIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D26087F1658003D2D89 /* ACIMP.m */; };
+		F16D9D5B087F1658003D2D89 /* ACIMPLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D27087F1658003D2D89 /* ACIMPLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D5C087F1658003D2D89 /* ACIMPLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D28087F1658003D2D89 /* ACIMPLookup.m */; };
+		F16D9D5D087F1658003D2D89 /* ACInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D29087F1658003D2D89 /* ACInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D5E087F1658003D2D89 /* ACInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D2A087F1658003D2D89 /* ACInvocation.m */; };
+		F16D9D5F087F1658003D2D89 /* ACLoggingAdvice.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D2B087F1658003D2D89 /* ACLoggingAdvice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D60087F1658003D2D89 /* ACLoggingAdvice.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D2C087F1658003D2D89 /* ACLoggingAdvice.m */; };
+		F16D9D61087F1658003D2D89 /* ACMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D2D087F1658003D2D89 /* ACMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D62087F1658003D2D89 /* ACMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D2E087F1658003D2D89 /* ACMethod.m */; };
+		F16D9D63087F1658003D2D89 /* ACMethodFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D2F087F1658003D2D89 /* ACMethodFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D64087F1658003D2D89 /* ACMethodFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D30087F1658003D2D89 /* ACMethodFilter.m */; };
+		F16D9D65087F1658003D2D89 /* ACMethodIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D31087F1658003D2D89 /* ACMethodIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D66087F1658003D2D89 /* ACMethodIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D32087F1658003D2D89 /* ACMethodIterator.m */; };
+		F16D9D67087F1658003D2D89 /* ACMethodScope.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D33087F1658003D2D89 /* ACMethodScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D68087F1658003D2D89 /* ACMethodScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D34087F1658003D2D89 /* ACMethodScope.m */; };
+		F16D9D69087F1658003D2D89 /* ACMethodSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D35087F1658003D2D89 /* ACMethodSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D6A087F1658003D2D89 /* ACMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D36087F1658003D2D89 /* ACMethodSignature.m */; };
+		F16D9D6B087F1658003D2D89 /* ACPointCut.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D37087F1658003D2D89 /* ACPointCut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D6C087F1658003D2D89 /* ACPointCut.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D38087F1658003D2D89 /* ACPointCut.m */; };
+		F16D9D6D087F1658003D2D89 /* ACReplacingWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D39087F1658003D2D89 /* ACReplacingWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D6E087F1658003D2D89 /* ACReplacingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D3A087F1658003D2D89 /* ACReplacingWrapper.m */; };
+		F16D9D6F087F1658003D2D89 /* ACTimingAdvice.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D3B087F1658003D2D89 /* ACTimingAdvice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D70087F1658003D2D89 /* ACTimingAdvice.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D3C087F1658003D2D89 /* ACTimingAdvice.m */; };
+		F16D9D71087F1658003D2D89 /* ACTracingAdvice.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D3D087F1658003D2D89 /* ACTracingAdvice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D72087F1658003D2D89 /* ACTracingAdvice.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D3E087F1658003D2D89 /* ACTracingAdvice.m */; };
+		F16D9D73087F1658003D2D89 /* AspectCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D3F087F1658003D2D89 /* AspectCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D74087F1658003D2D89 /* GeneratedCodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D40087F1658003D2D89 /* GeneratedCodeAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D9D75087F1658003D2D89 /* GeneratedCodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D9D41087F1658003D2D89 /* GeneratedCodeAdditions.m */; };
+		F16D9D76087F1658003D2D89 /* NSObjectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F16D9D42087F1658003D2D89 /* NSObjectExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		014CEA440018CDF011CA2923 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		014CEA450018CDF011CA2923 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* AspectCocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectCocoa_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* AspectCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AspectCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F16D9D0F087F1658003D2D89 /* ACAdviceList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACAdviceList.h; sourceTree = SOURCE_ROOT; };
+		F16D9D10087F1658003D2D89 /* ACAdviceList.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACAdviceList.m; sourceTree = SOURCE_ROOT; };
+		F16D9D11087F1658003D2D89 /* ACAdviceLookup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACAdviceLookup.h; sourceTree = SOURCE_ROOT; };
+		F16D9D12087F1658003D2D89 /* ACAdviceLookup.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACAdviceLookup.m; sourceTree = SOURCE_ROOT; };
+		F16D9D13087F1658003D2D89 /* ACAspect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACAspect.h; sourceTree = SOURCE_ROOT; };
+		F16D9D14087F1658003D2D89 /* ACAspect.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACAspect.m; sourceTree = SOURCE_ROOT; };
+		F16D9D15087F1658003D2D89 /* ACAspectManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACAspectManager.h; sourceTree = SOURCE_ROOT; };
+		F16D9D16087F1658003D2D89 /* ACAspectManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACAspectManager.m; sourceTree = SOURCE_ROOT; };
+		F16D9D17087F1658003D2D89 /* ACBOOLLookup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACBOOLLookup.h; sourceTree = SOURCE_ROOT; };
+		F16D9D18087F1658003D2D89 /* ACBOOLLookup.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACBOOLLookup.m; sourceTree = SOURCE_ROOT; };
+		F16D9D19087F1658003D2D89 /* ACClass.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACClass.h; sourceTree = SOURCE_ROOT; };
+		F16D9D1A087F1658003D2D89 /* ACClass.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACClass.m; sourceTree = SOURCE_ROOT; };
+		F16D9D1B087F1658003D2D89 /* ACClassFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACClassFilter.h; sourceTree = SOURCE_ROOT; };
+		F16D9D1C087F1658003D2D89 /* ACClassFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACClassFilter.m; sourceTree = SOURCE_ROOT; };
+		F16D9D1D087F1658003D2D89 /* ACClassScope.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACClassScope.h; sourceTree = SOURCE_ROOT; };
+		F16D9D1E087F1658003D2D89 /* ACClassScope.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACClassScope.m; sourceTree = SOURCE_ROOT; };
+		F16D9D1F087F1658003D2D89 /* ACCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACCodeGenerator.h; sourceTree = SOURCE_ROOT; };
+		F16D9D20087F1658003D2D89 /* ACCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACCodeGenerator.m; sourceTree = SOURCE_ROOT; };
+		F16D9D21087F1658003D2D89 /* ACForwardingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACForwardingWrapper.h; sourceTree = SOURCE_ROOT; };
+		F16D9D22087F1658003D2D89 /* ACForwardingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACForwardingWrapper.m; sourceTree = SOURCE_ROOT; };
+		F16D9D23087F1658003D2D89 /* ACGeneratedCode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACGeneratedCode.h; sourceTree = SOURCE_ROOT; };
+		F16D9D24087F1658003D2D89 /* ACGeneratedCode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACGeneratedCode.m; sourceTree = SOURCE_ROOT; };
+		F16D9D25087F1658003D2D89 /* ACIMP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACIMP.h; sourceTree = SOURCE_ROOT; };
+		F16D9D26087F1658003D2D89 /* ACIMP.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACIMP.m; sourceTree = SOURCE_ROOT; };
+		F16D9D27087F1658003D2D89 /* ACIMPLookup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACIMPLookup.h; sourceTree = SOURCE_ROOT; };
+		F16D9D28087F1658003D2D89 /* ACIMPLookup.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACIMPLookup.m; sourceTree = SOURCE_ROOT; };
+		F16D9D29087F1658003D2D89 /* ACInvocation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACInvocation.h; sourceTree = SOURCE_ROOT; };
+		F16D9D2A087F1658003D2D89 /* ACInvocation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACInvocation.m; sourceTree = SOURCE_ROOT; };
+		F16D9D2B087F1658003D2D89 /* ACLoggingAdvice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACLoggingAdvice.h; sourceTree = SOURCE_ROOT; };
+		F16D9D2C087F1658003D2D89 /* ACLoggingAdvice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACLoggingAdvice.m; sourceTree = SOURCE_ROOT; };
+		F16D9D2D087F1658003D2D89 /* ACMethod.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACMethod.h; sourceTree = SOURCE_ROOT; };
+		F16D9D2E087F1658003D2D89 /* ACMethod.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACMethod.m; sourceTree = SOURCE_ROOT; };
+		F16D9D2F087F1658003D2D89 /* ACMethodFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACMethodFilter.h; sourceTree = SOURCE_ROOT; };
+		F16D9D30087F1658003D2D89 /* ACMethodFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACMethodFilter.m; sourceTree = SOURCE_ROOT; };
+		F16D9D31087F1658003D2D89 /* ACMethodIterator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACMethodIterator.h; sourceTree = SOURCE_ROOT; };
+		F16D9D32087F1658003D2D89 /* ACMethodIterator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACMethodIterator.m; sourceTree = SOURCE_ROOT; };
+		F16D9D33087F1658003D2D89 /* ACMethodScope.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACMethodScope.h; sourceTree = SOURCE_ROOT; };
+		F16D9D34087F1658003D2D89 /* ACMethodScope.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACMethodScope.m; sourceTree = SOURCE_ROOT; };
+		F16D9D35087F1658003D2D89 /* ACMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACMethodSignature.h; sourceTree = SOURCE_ROOT; };
+		F16D9D36087F1658003D2D89 /* ACMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACMethodSignature.m; sourceTree = SOURCE_ROOT; };
+		F16D9D37087F1658003D2D89 /* ACPointCut.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACPointCut.h; sourceTree = SOURCE_ROOT; };
+		F16D9D38087F1658003D2D89 /* ACPointCut.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACPointCut.m; sourceTree = SOURCE_ROOT; };
+		F16D9D39087F1658003D2D89 /* ACReplacingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACReplacingWrapper.h; sourceTree = SOURCE_ROOT; };
+		F16D9D3A087F1658003D2D89 /* ACReplacingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACReplacingWrapper.m; sourceTree = SOURCE_ROOT; };
+		F16D9D3B087F1658003D2D89 /* ACTimingAdvice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACTimingAdvice.h; sourceTree = SOURCE_ROOT; };
+		F16D9D3C087F1658003D2D89 /* ACTimingAdvice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACTimingAdvice.m; sourceTree = SOURCE_ROOT; };
+		F16D9D3D087F1658003D2D89 /* ACTracingAdvice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ACTracingAdvice.h; sourceTree = SOURCE_ROOT; };
+		F16D9D3E087F1658003D2D89 /* ACTracingAdvice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ACTracingAdvice.m; sourceTree = SOURCE_ROOT; };
+		F16D9D3F087F1658003D2D89 /* AspectCocoa.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AspectCocoa.h; sourceTree = SOURCE_ROOT; };
+		F16D9D40087F1658003D2D89 /* GeneratedCodeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GeneratedCodeAdditions.h; sourceTree = SOURCE_ROOT; };
+		F16D9D41087F1658003D2D89 /* GeneratedCodeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeneratedCodeAdditions.m; sourceTree = SOURCE_ROOT; };
+		F16D9D42087F1658003D2D89 /* NSObjectExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSObjectExtensions.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* AspectCocoa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* AspectCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = AspectCocoa;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F16D9D0F087F1658003D2D89 /* ACAdviceList.h */,
+				F16D9D10087F1658003D2D89 /* ACAdviceList.m */,
+				F16D9D11087F1658003D2D89 /* ACAdviceLookup.h */,
+				F16D9D12087F1658003D2D89 /* ACAdviceLookup.m */,
+				F16D9D13087F1658003D2D89 /* ACAspect.h */,
+				F16D9D14087F1658003D2D89 /* ACAspect.m */,
+				F16D9D15087F1658003D2D89 /* ACAspectManager.h */,
+				F16D9D16087F1658003D2D89 /* ACAspectManager.m */,
+				F16D9D17087F1658003D2D89 /* ACBOOLLookup.h */,
+				F16D9D18087F1658003D2D89 /* ACBOOLLookup.m */,
+				F16D9D19087F1658003D2D89 /* ACClass.h */,
+				F16D9D1A087F1658003D2D89 /* ACClass.m */,
+				F16D9D1B087F1658003D2D89 /* ACClassFilter.h */,
+				F16D9D1C087F1658003D2D89 /* ACClassFilter.m */,
+				F16D9D1D087F1658003D2D89 /* ACClassScope.h */,
+				F16D9D1E087F1658003D2D89 /* ACClassScope.m */,
+				F16D9D1F087F1658003D2D89 /* ACCodeGenerator.h */,
+				F16D9D20087F1658003D2D89 /* ACCodeGenerator.m */,
+				F16D9D21087F1658003D2D89 /* ACForwardingWrapper.h */,
+				F16D9D22087F1658003D2D89 /* ACForwardingWrapper.m */,
+				F16D9D23087F1658003D2D89 /* ACGeneratedCode.h */,
+				F16D9D24087F1658003D2D89 /* ACGeneratedCode.m */,
+				F16D9D25087F1658003D2D89 /* ACIMP.h */,
+				F16D9D26087F1658003D2D89 /* ACIMP.m */,
+				F16D9D27087F1658003D2D89 /* ACIMPLookup.h */,
+				F16D9D28087F1658003D2D89 /* ACIMPLookup.m */,
+				F16D9D29087F1658003D2D89 /* ACInvocation.h */,
+				F16D9D2A087F1658003D2D89 /* ACInvocation.m */,
+				F16D9D2B087F1658003D2D89 /* ACLoggingAdvice.h */,
+				F16D9D2C087F1658003D2D89 /* ACLoggingAdvice.m */,
+				F16D9D2D087F1658003D2D89 /* ACMethod.h */,
+				F16D9D2E087F1658003D2D89 /* ACMethod.m */,
+				F16D9D2F087F1658003D2D89 /* ACMethodFilter.h */,
+				F16D9D30087F1658003D2D89 /* ACMethodFilter.m */,
+				F16D9D31087F1658003D2D89 /* ACMethodIterator.h */,
+				F16D9D32087F1658003D2D89 /* ACMethodIterator.m */,
+				F16D9D33087F1658003D2D89 /* ACMethodScope.h */,
+				F16D9D34087F1658003D2D89 /* ACMethodScope.m */,
+				F16D9D35087F1658003D2D89 /* ACMethodSignature.h */,
+				F16D9D36087F1658003D2D89 /* ACMethodSignature.m */,
+				F16D9D37087F1658003D2D89 /* ACPointCut.h */,
+				F16D9D38087F1658003D2D89 /* ACPointCut.m */,
+				F16D9D39087F1658003D2D89 /* ACReplacingWrapper.h */,
+				F16D9D3A087F1658003D2D89 /* ACReplacingWrapper.m */,
+				F16D9D3B087F1658003D2D89 /* ACTimingAdvice.h */,
+				F16D9D3C087F1658003D2D89 /* ACTimingAdvice.m */,
+				F16D9D3D087F1658003D2D89 /* ACTracingAdvice.h */,
+				F16D9D3E087F1658003D2D89 /* ACTracingAdvice.m */,
+				F16D9D3F087F1658003D2D89 /* AspectCocoa.h */,
+				F16D9D40087F1658003D2D89 /* GeneratedCodeAdditions.h */,
+				F16D9D41087F1658003D2D89 /* GeneratedCodeAdditions.m */,
+				F16D9D42087F1658003D2D89 /* NSObjectExtensions.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* AspectCocoa_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D9D43087F1658003D2D89 /* ACAdviceList.h in Headers */,
+				F16D9D45087F1658003D2D89 /* ACAdviceLookup.h in Headers */,
+				F16D9D47087F1658003D2D89 /* ACAspect.h in Headers */,
+				F16D9D49087F1658003D2D89 /* ACAspectManager.h in Headers */,
+				F16D9D4B087F1658003D2D89 /* ACBOOLLookup.h in Headers */,
+				F16D9D4D087F1658003D2D89 /* ACClass.h in Headers */,
+				F16D9D4F087F1658003D2D89 /* ACClassFilter.h in Headers */,
+				F16D9D51087F1658003D2D89 /* ACClassScope.h in Headers */,
+				F16D9D53087F1658003D2D89 /* ACCodeGenerator.h in Headers */,
+				F16D9D55087F1658003D2D89 /* ACForwardingWrapper.h in Headers */,
+				F16D9D57087F1658003D2D89 /* ACGeneratedCode.h in Headers */,
+				F16D9D59087F1658003D2D89 /* ACIMP.h in Headers */,
+				F16D9D5B087F1658003D2D89 /* ACIMPLookup.h in Headers */,
+				F16D9D5D087F1658003D2D89 /* ACInvocation.h in Headers */,
+				F16D9D5F087F1658003D2D89 /* ACLoggingAdvice.h in Headers */,
+				F16D9D61087F1658003D2D89 /* ACMethod.h in Headers */,
+				F16D9D63087F1658003D2D89 /* ACMethodFilter.h in Headers */,
+				F16D9D65087F1658003D2D89 /* ACMethodIterator.h in Headers */,
+				F16D9D67087F1658003D2D89 /* ACMethodScope.h in Headers */,
+				F16D9D69087F1658003D2D89 /* ACMethodSignature.h in Headers */,
+				F16D9D6B087F1658003D2D89 /* ACPointCut.h in Headers */,
+				F16D9D6D087F1658003D2D89 /* ACReplacingWrapper.h in Headers */,
+				F16D9D6F087F1658003D2D89 /* ACTimingAdvice.h in Headers */,
+				F16D9D71087F1658003D2D89 /* ACTracingAdvice.h in Headers */,
+				F16D9D73087F1658003D2D89 /* AspectCocoa.h in Headers */,
+				F16D9D74087F1658003D2D89 /* GeneratedCodeAdditions.h in Headers */,
+				F16D9D76087F1658003D2D89 /* NSObjectExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* AspectCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16D9D05087F164B003D2D89 /* Build configuration list for PBXNativeTarget "AspectCocoa" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AspectCocoa_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				PREBINDING = NO;
+				PRODUCT_NAME = AspectCocoa;
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			name = AspectCocoa;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = AspectCocoa;
+			productReference = 8DC2EF5B0486A6940098B216 /* AspectCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F16D9D09087F164B003D2D89 /* Build configuration list for PBXProject "AspectCocoa" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA440018CDF011CA2923 /* Debug */,
+				014CEA450018CDF011CA2923 /* Release */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* AspectCocoa */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* AspectCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16D9D44087F1658003D2D89 /* ACAdviceList.m in Sources */,
+				F16D9D46087F1658003D2D89 /* ACAdviceLookup.m in Sources */,
+				F16D9D48087F1658003D2D89 /* ACAspect.m in Sources */,
+				F16D9D4A087F1658003D2D89 /* ACAspectManager.m in Sources */,
+				F16D9D4C087F1658003D2D89 /* ACBOOLLookup.m in Sources */,
+				F16D9D4E087F1658003D2D89 /* ACClass.m in Sources */,
+				F16D9D50087F1658003D2D89 /* ACClassFilter.m in Sources */,
+				F16D9D52087F1658003D2D89 /* ACClassScope.m in Sources */,
+				F16D9D54087F1658003D2D89 /* ACCodeGenerator.m in Sources */,
+				F16D9D56087F1658003D2D89 /* ACForwardingWrapper.m in Sources */,
+				F16D9D58087F1658003D2D89 /* ACGeneratedCode.m in Sources */,
+				F16D9D5A087F1658003D2D89 /* ACIMP.m in Sources */,
+				F16D9D5C087F1658003D2D89 /* ACIMPLookup.m in Sources */,
+				F16D9D5E087F1658003D2D89 /* ACInvocation.m in Sources */,
+				F16D9D60087F1658003D2D89 /* ACLoggingAdvice.m in Sources */,
+				F16D9D62087F1658003D2D89 /* ACMethod.m in Sources */,
+				F16D9D64087F1658003D2D89 /* ACMethodFilter.m in Sources */,
+				F16D9D66087F1658003D2D89 /* ACMethodIterator.m in Sources */,
+				F16D9D68087F1658003D2D89 /* ACMethodScope.m in Sources */,
+				F16D9D6A087F1658003D2D89 /* ACMethodSignature.m in Sources */,
+				F16D9D6C087F1658003D2D89 /* ACPointCut.m in Sources */,
+				F16D9D6E087F1658003D2D89 /* ACReplacingWrapper.m in Sources */,
+				F16D9D70087F1658003D2D89 /* ACTimingAdvice.m in Sources */,
+				F16D9D72087F1658003D2D89 /* ACTracingAdvice.m in Sources */,
+				F16D9D75087F1658003D2D89 /* GeneratedCodeAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16D9D06087F164B003D2D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AspectCocoa_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks/";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AspectCocoa;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F16D9D07087F164B003D2D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AspectCocoa_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks/";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AspectCocoa;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F16D9D08087F164B003D2D89 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AspectCocoa_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks/";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AspectCocoa;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		F16D9D0A087F164B003D2D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F16D9D0B087F164B003D2D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F16D9D0C087F164B003D2D89 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16D9D05087F164B003D2D89 /* Build configuration list for PBXNativeTarget "AspectCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D9D06087F164B003D2D89 /* Debug */,
+				F16D9D07087F164B003D2D89 /* Release */,
+				F16D9D08087F164B003D2D89 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F16D9D09087F164B003D2D89 /* Build configuration list for PBXProject "AspectCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16D9D0A087F164B003D2D89 /* Debug */,
+				F16D9D0B087F164B003D2D89 /* Release */,
+				F16D9D0C087F164B003D2D89 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
